@@ -1,8 +1,5 @@
 pipeline {
   agent any
-  tools {
-    git 'Default'
-  }
   environment {
     TOMCAT_CREDS = credentials('ssh-key')
     TOMCAT_SERVER = "3.145.86.11"
