@@ -1,0 +1,49 @@
+# Maven specific files
+/target/
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Eclipse files
+/.settings/
+/*.classpath
+/*.project
+/*.jdt.core.prefs
+/*.factorypath
+
+# VS Code files
+/.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+/logs/
+/*.log
+
+# Spring Boot specific
+spring.log
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+
+# IDE-specific metadata
+*.launch
+*.ipr
+*.iws
+
+# Build output
+/out/
+
+# Sensitive files
+application.properties
+application.yml
+application-*.properties
+application-*.yml
